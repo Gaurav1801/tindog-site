@@ -1,0 +1,148 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#title{
+    background-color: #699ff1;
+    font-weight: bold;
+}
+.container-fluid{
+    padding: 3% 15% 12%;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size:2rem;
+    font-weight: bold;
+}
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+.nav-item{
+    padding: 0 18px
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+
+h1{
+    color: white;
+    font-family: 'Montserrat-black';
+    size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+h2{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+.title-img{
+    width: 15%;
+    transform: rotate(25deg);
+    position: absolute;
+   right: 25%;
+}
+.f1{
+    
+    padding:  11% 4.5rem;
+    font-family: "ubantu";
+    font-weight: bold;
+ 
+}
+#features{
+    padding: 0 10%;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    
+    
+}
+.f1-img{
+   
+    color: #699ff1;
+   font-size: 4rem;
+}
+.f1-img:hover{
+    color: #699ff1;
+}
+.f1-text{
+    color: #8f8f8f;
+
+}
+/* Testimonials */
+#testimonials{
+    
+    text-align: center;
+    background-color: #699ff1;
+    color: #fff;
+}
+.carousel-item{
+    padding: 4% 15%;
+
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+/*press*/
+
+#press{
+    background-color: #699ff1;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.card{
+    text-align: center;
+}
+#pricing{
+    padding: 100px;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+@media (max-width :996px) {
+    #title{
+        text-align: center;
+    }
+    .title-img{
+         position: static;
+        width:40%;
+        transform: rotate(0);
+        margin-top: 10%;
+    }
+    
+}
+/*cta*/
+
+#cta{
+    background-color: #699ff1;   
+}
+.cta-b{
+    text-align: center;
+    padding: 10%;
+}
+.cta-h3{
+    color:#fff;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.cta-btn{
+    margin: 30px 20px;
+}
+#footer{
+    background-color: #fff;
+    padding: 5%;
+    text-align:center ;
+}
+.faf{
+    padding: 2%;
+}
